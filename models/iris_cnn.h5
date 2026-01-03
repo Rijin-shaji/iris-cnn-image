@@ -1,0 +1,26 @@
+Model Creation
+A custom Convolutional Neural Network (CNN) is built for multi-class Iris flower image classification.
+Architecture Details:
+Input Layer: 128 × 128 RGB images
+Convolution Block 1:
+Conv2D with 32 filters (3×3), ReLU activation
+MaxPooling (2×2)
+Convolution Block 2:
+Conv2D with 64 filters (3×3), ReLU activation
+MaxPooling (2×2)
+Convolution Block 3:
+Conv2D with 128 filters (3×3), ReLU activation
+MaxPooling (2×2)
+Flatten Layer: Converts feature maps to 1D vector
+Fully Connected Layer: Dense (128 neurons, ReLU)
+Dropout: 0.5 to reduce overfitting
+Output Layer: Dense (3 neurons, Softmax) for multi-class classification
+
+Model Compilation
+Optimizer: Adam
+Loss Function: Categorical Crossentropy
+Evaluation Metric: Accuracy
+
+The model is trained using augmented training data and validated using a separate validation dataset.
+Epochs: Defined by EPOCHS
+Validation: Real-time performance monitoring on validation data
