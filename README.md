@@ -1,4 +1,4 @@
-# iris-cnn-image
+## iris-cnn-image
 CNN-based image classification system for identifying Iris flower species from images.
 CNN-based image classification system to identify Iris flower species (Setosa, Versicolor, Virginica) using deep learning. The project includes dataset splitting, image augmentation, CNN training, evaluation, and single-image prediction.
 
