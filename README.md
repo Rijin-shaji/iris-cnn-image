@@ -11,7 +11,7 @@ This project builds an end-to-end Convolutional Neural Network (CNN) pipeline to
 
 ---
 
-## Objectives
+# Objectives
 - Automatically split raw image data into train, validation, and test sets
 - Apply image augmentation to improve generalization
 - Train a CNN model for multi-class image classification
