@@ -20,7 +20,7 @@ This project builds an end-to-end Convolutional Neural Network (CNN) pipeline to
 
 ---
 
-## Classes
+# Classes
 - Setosa
 - Versicolor
 - Virginica
